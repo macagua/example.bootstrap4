@@ -1,0 +1,27 @@
+{
+  "name": "example.bootstrap4",
+  "version": "1.0.0",
+  "description": "Bootstrap 4 Examples",
+  "main": "index.js",
+  "dependencies": {
+    "bootstrap": "^4.5.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/macagua/example.bootstrap4.git"
+  },
+  "keywords": [
+    "Bootstrap4",
+    "Examples"
+  ],
+  "author": "Leonardo J. Caballero G. <leonardocaballero@gmail.com>",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/macagua/example.bootstrap4/issues"
+  },
+  "homepage": "https://github.com/macagua/example.bootstrap4#readme"
+}
