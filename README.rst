@@ -10,7 +10,8 @@ example.bootstrap4
 Install
 =======
 
-For install, execute the following command:
+For install this project using ``npm``, execute the following command:
 
-::
-    npm install
+.. code-block:: console
+
+  npm install
