@@ -7,16 +7,45 @@
     <link type="text/css" rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
     <!-- mdbootstrap.com CSS asset -->
     <link type="text/css" rel="stylesheet" href="../assets/css/mdbootstrap.css">
+    <style type="text/css">
+        .element {
+        // Three columns to start
+        @include row-cols(3);
+
+        // Five columns from medium breakpoint up
+            @include media-breakpoint-up(md) {
+                @include row-cols(5);
+            }
+        }
+    </style>
 </head>
 <body>
-    <div class="container px-lg-5">
-        <div class="row mx-lg-n5">
-            <div class="col py-3 px-lg-5 col-example">
-                Custom column padding
-            </div>
-            <div class="col py-3 px-lg-5 col-example">
-                Custom column padding
-            </div>
+    <div class="container">
+        <div class="row row-cols-2">
+            <div class="col col-example">Column</div>
+            <div class="col col-example">Column</div>
+            <div class="col col-example">Column</div>
+            <div class="col col-example">Column</div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <div class="container">
+        <div class="row row-cols-3">
+            <div class="col col-example">Column</div>
+            <div class="col col-example">Column</div>
+            <div class="col col-example">Column</div>
+            <div class="col col-example">Column</div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <div class="container">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
+            <div class="col col-example">Column</div>
+            <div class="col col-example">Column</div>
+            <div class="col col-example">Column</div>
+            <div class="col col-example">Column</div>
         </div>
     </div>
 </body>
