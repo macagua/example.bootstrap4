@@ -10,6 +10,8 @@ Examples
 
 - Examples taken from https://www.freecodecamp.org/news/the-best-bootstrap-examples/
 
+- Examples taken from https://mdbootstrap.com/docs/jquery/layout/grid-usage/
+
 
 Install
 =======
